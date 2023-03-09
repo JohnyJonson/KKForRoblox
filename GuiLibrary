@@ -20,7 +20,7 @@ local GuiLibrary = {
 		script.Parent.Frame.UIListLayout:Destroy()
 	end,
 }
-function GuiLibrary:CreateButton()
+function GuiLibrary:CreateButton(btn)
 	local UICreatedBtn = Instance.new("TextButton")
 	UICreatedBtn.Name = btn["Name"]
 	UICreatedBtn.Parent = game.StarterGui.KKForRoblox.Frame
