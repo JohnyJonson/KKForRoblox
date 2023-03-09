@@ -14,7 +14,7 @@ local btn = {
 	end,
 }
 
-local GuiLibrary = {
+local GuiLIB = {
 	["GuiHandler"] = btn,
 	["Unsort"] = function()
 		script.Parent.Frame.UIListLayout:Destroy()
